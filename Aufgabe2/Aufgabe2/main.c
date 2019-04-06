@@ -11,12 +11,13 @@
 
 
 // >>> AUFG 2 <<<
-// #define 2_PI 3.14 + 3.14
+ #define ZWEI_PI 3.14 + 3.14
 // --> macro name can not start with a number
 // --> surround Addition by round Brackets / define as complete int  (^ before * before +-)
 #define TWO_PI (3.14 + 3.14)
 
 //#define MAX(a, b) (a > b ? a : b)
+
 // --> double evaluation problem
 // https://stackoverflow.com/questions/39439181/what-is-double-evaluation-and-why-should-it-be-avoided
 #define MAX(a, b) \
@@ -30,10 +31,6 @@
 
 
 // >>> AUFG 1 <<<
-//#define dbg 0
-//#define debug_print(fmt, ...) \
-//do { if (dbg) fprintf(stderr, fmt, __VA_ARGS__); } while (0)
-
 // backwards compatibility
 #if __awesome_ver >= 3
 #define something_awesome do_something_awesome
@@ -47,17 +44,30 @@
 #error Needs awesome version 2 or higher
 #endif
 
-
-#ifndef DEBUG
-#define printf printf("");
+#undef DEBUG
+#ifdef DEBUG
+#define DEBUG_P(format,arg...) printf(format,##arg)
+#else
+#define DEBUG_P(format,arg...)
 #endif
 
+// gcc -Wall -DDEBUG main.c
+// ./a.out
 
+void something(int a){
+    printf("%d\n",a);
+}
+
+void something_else(int a){
+    printf("%d\n",a*2);
+}
 
 int main(int argc, char **argv) {
-    printf("%d\n",MAX(1,2));
-    printf("starting\n");
-    printf("%d\n",something_awesome(42));
+    //printf("test %d\n",);
+    DEBUG_P("%d\n",MAX(1,2));
+    DEBUG_P("starting\n");
+    DEBUG_P("%d\n",something_awesome(42));
+    MANY_THINGS(12);
     return 0;
 }
 
@@ -76,3 +86,4 @@ int main(int argc, char **argv) {
 //  int main(int argc, char** argv) {
 //  printf("Hello world!\n");
 //  }
+
