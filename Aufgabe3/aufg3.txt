@@ -1,0 +1,113 @@
+Hallo Herr Reimer
+
+ 
+
+Anbei die Übungsaufgabe.
+
+Sollte diese nicht verständlich genug sein, bitte kurze Rückmeldung.
+
+Nächsten Freitag bin ich nicht im Hause. Der darauffolgende Freitag ist Karfreitag, so dass wir uns in 3 Wochen am 19.April wiedersehen.
+
+ 
+
+VG
+
+D. Justen
+
+ 
+
+Übungsaufgabe für Pointer
+
+Terminalschnittelle des Lauterbach-Debuggers als Debug-Schnittstelle nutzen (wichtig, unter Apple wird dieses Programm aufgrund des Speicherschutzes nicht laufen)
+
+o   Über das Terminal können verschiedene Befehle/Kommando gegeben werden
+
+o   Kommando 1:
+
+·   Debug Befehl zur Darstellung des Speicherinhaltes/Variableninhaltes
+
+d[Speicherzugriffsbreite] Speicheradresse [Count] CR
+
+    Speicherzugriffsbreite (Optiomal) Default .w
+
+    .w|.W= Speicheradresse als Zeiger auf Integer (U32 *) interpretieren
+
+     .s|.S  = Speicheradresse als Zeiger auf Short (U16 *) interpretieren
+
+     .b|.B = Speicheradresse als Zeiger auf Char (U8 *) interpretieren
+
+     .w|.s|.b -> Ausgabe als Hexadezimale Zahl
+
+     .W|.S|.B -> Ausgabe als Integerzahl
+
+Speicheradresse
+
+    integer = als Integerzahl mit führenden Nullen      bspw: 004711
+
+    hexadezimal= als Hexadezimal mit 0x beginnend   bspw:  0x0047B1
+
+    Variablenname = Name einer globalen Variable (siehe erste Aufgabe mit Stringersetzung)
+
+Count (Optional)  Default =1
+
+    Anzahl der darzustellenden Speicherinhalte
+
+     integer = als Integerzahl mit führenden Nullen
+
+     hexadezimal = als Hexadezimalzahl
+
+CR Carriage Return als Zeilenendezeichen
+
+·       Bsp: d 100                -->    00000064:   12345678
+
+·               d 100 2              -->   00000064:   12345678  9ABCDEF0
+
+·               d.s  0x100 4      -->   00000100:   1234 5678 9ABC DEF0
+
+·               d.B globale_bss -->  000F0123:   255
+
+·               d    globale_bss2
+
+o   Kommando 2:
+
+·   Debug Befehl zum setzen eines Speicherinhaltes/Variableninhaltes
+
+s[Speicherzugriffsbreite] Speicheradresse Wert CR
+
+    Speicherzugriffsbreite (Optiomal) Default .w
+
+    .w|.W= Speicheradresse als Zeiger auf Integer (U32 *) interpretieren
+
+     .s|.S  = Speicheradresse als Zeiger auf Short (U16 *) interpretieren
+
+     .b|.B = Speicheradresse als Zeiger auf Char (U8 *) interpretieren
+
+Speicheradresse
+
+    integer = als Integerzahl mit führenden Nullen      bspw: 004711
+
+    hexadezimal= als Hexadezimal mit 0x beginnend   bspw:  0x0047B1
+
+    Variablenname = Name einer globalen Variable (siehe erste Aufgabe mit Stringersetzung)
+
+Wert 
+
+    Wert, welcher in die Speicherstelle geschrieben werden soll
+
+     integer = als Integerzahl mit führenden Nullen
+
+     hexadezimal = als Hexadezimalzahl
+
+CR Carriage Return als Zeilenendezeichen
+
+·       Bsp: s  100 2      # Wert 2 in speichstelle 100 schreiben
+
+·               s.b  100 2   # Wert 2 in Speicherstelle 100 schreiben
+
+·              S.s   globale_bss 4711
+
+o   Umsetzung:
+
+·   Am besten gliedern sie die Funktionalität in einer speraten C- und H-Datei aus. Die H-Datei dann bitte sowohl in der main.c als auch in der eigenen C-Datei inkludieren. Damit die C-Datei mit übersetzt wird, muss diese im Makefile eingetragen werden. Dazu im makefile der Variablen 'APP_SRC' ihre C-Datei ohne Extension einfügen. Nach Änderung des Makefiles einmal 'make clean' auf der Konsole eingeben.
+
+ 
