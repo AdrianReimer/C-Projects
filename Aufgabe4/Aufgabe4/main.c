@@ -16,7 +16,7 @@ static short df_rem_ele = -df_length + 2; // remaining unused elements of the da
 static short df_op_count = 1; // amount of operations used on the datafield
 static char df[df_length];
 static char *df_set_ptr = &df[1]; // pointer to set new key-value pairs inside the Datafield
-static char *df_get_ptr = &df[0]; // pointer to search for keys inside the Datafield
+static char *df_get_ptr = &df[1]; // pointer to search for keys inside the Datafield
 // mit array element löschen
 
 
@@ -36,6 +36,7 @@ int main(int argc, const char * argv[]) {
     assoziative_set("key2", "value2");
     assoziative_get("key2");
     assoziative_get("key1");
+    assoziative_get("key10");
     assoziative_print();
     
     printf("%d\n",df_op_count);
@@ -78,16 +79,20 @@ int assoziative_set(char *key, char *element) {
 int assoziative_get(char *key) {
     short key_space = (short)strlen(key) + 1; // length of key (including \0)
     short key_count = 0; // counts similar characters to find the key
-    int i = 0;
+    int i = 1;
+    short key_value_length = *df_get_ptr++;
     while((i < (df_rem_ele + df_length)) && key_space != key_count) { // search only in "used" space
         if(*df_get_ptr == *key) { // similar character found
             df_get_ptr++;
             key++;
             key_count++;
         } else {
+            short dist_to_next_key = key_value_length + 1 - key_count; // byte distance to next key
+            df_get_ptr+= dist_to_next_key;
+            i+= dist_to_next_key;
+            key_value_length = *df_get_ptr++;
             key -= key_count; // resets key-ptr to original position
             key_count = 0; // resets count
-            df_get_ptr++;
         }
         i++;
     }
