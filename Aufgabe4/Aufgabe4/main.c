@@ -23,6 +23,7 @@ static char *df_get_ptr = &df[1]; // pointer to search for keys inside the Dataf
 void assoziative_print(void);
 int assoziative_set(char *key, char *element);
 int assoziative_get(char *key);
+int assoziative_remove(char *key);
 
 int main(int argc, const char * argv[]) {
     // define datafield
@@ -37,6 +38,7 @@ int main(int argc, const char * argv[]) {
     assoziative_get("key2");
     assoziative_get("key1");
     assoziative_get("key10");
+    assoziative_remove("key1");
     assoziative_print();
     
     printf("%d\n",df_op_count);
@@ -75,8 +77,8 @@ int assoziative_set(char *key, char *element) {
     return -1;
 }
 
-/* Gets the Value of the key from the Datafield */
-int assoziative_get(char *key) {
+/* Searches key in Datafield and return a pointer to the respective value */
+char *search_key_value(char *key) {
     short key_space = (short)strlen(key) + 1; // length of key (including \0)
     short key_count = 0; // counts similar characters to find the key
     int i = 1;
@@ -96,9 +98,37 @@ int assoziative_get(char *key) {
         }
         i++;
     }
+    char *n_df_get_ptr = df_get_ptr;
     df_get_ptr -= i; // resets ptr to beginning of Datafield
+    key -= key_count; // resets key-ptr to original position
     if(key_space == key_count) {
-        printf("%s\n",key); // print found element
+        return n_df_get_ptr;
+    }
+    return NULL;
+}
+
+/* Gets the Value of the key from the Datafield */
+int assoziative_get(char *key) {
+    return printf("%s\n",search_key_value(key)) ? 0 : -1;
+}
+
+/* Removes the key-value pair from the datafield and "cleans" it */
+int assoziative_remove(char *key) {
+    char *value = search_key_value(key);
+    if (value != NULL) {
+        char *n_key = value - (strlen(key)+1); // pointer to datafield key
+        short key_value_space = *--n_key; // amount of space deleted
+        while(*n_key >= 0) {
+            *n_key = *(n_key + key_value_space + 2);
+            n_key++;
+        }
+        df_rem_ele -= (key_value_space + 2); // more datafield space
+        n_key -= (key_value_space + 2);
+        *n_key++ = df_rem_ele;
+        ++df_op_count; // update datafield operation count
+        for(int i = df_rem_ele; i < 0; i++) {
+            *n_key++ = df_op_count;
+        }
         return 0;
     }
     return -1;
