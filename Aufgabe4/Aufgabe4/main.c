@@ -98,9 +98,8 @@ char *search_key_value(char *key) {
         }
         i++;
     }
-    char *n_df_get_ptr = df_get_ptr;
+    char *n_df_get_ptr = df_get_ptr; // copy pointer
     df_get_ptr -= i; // resets ptr to beginning of Datafield
-    key -= key_count; // resets key-ptr to original position
     if(key_space == key_count) {
         return n_df_get_ptr;
     }
@@ -116,18 +115,18 @@ int assoziative_get(char *key) {
 int assoziative_remove(char *key) {
     char *value = search_key_value(key);
     if (value != NULL) {
-        char *n_key = value - (strlen(key)+1); // pointer to datafield key
-        short key_value_space = *--n_key; // amount of space deleted
-        while(*n_key >= 0) {
-            *n_key = *(n_key + key_value_space + 2);
-            n_key++;
+        key = value - (strlen(key)+1); // pointer to datafield key
+        short key_value_space = *--key; // amount of space deleted
+        while(*key >= 0) {
+            *key = *(key + key_value_space + 2);
+            key++;
         }
         df_rem_ele -= (key_value_space + 2); // more datafield space
-        n_key -= (key_value_space + 2);
-        *n_key++ = df_rem_ele;
+        key -= (key_value_space + 2);
+        *key++ = df_rem_ele;
         ++df_op_count; // update datafield operation count
         for(int i = df_rem_ele; i < 0; i++) {
-            *n_key++ = df_op_count;
+            *key++ = df_op_count;
         }
         return 0;
     }
