@@ -139,3 +139,5 @@ void assoziative_print() {
         printf("%d \t %x \t %d \t %c\n", i, df[i], (int)df[i], (int)df[i]);
     }
 }
+
+// remove
