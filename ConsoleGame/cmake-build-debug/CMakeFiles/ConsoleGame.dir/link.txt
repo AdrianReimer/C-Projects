@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ConsoleGame.dir/src/main.c.o CMakeFiles/ConsoleGame.dir/src/World/World.c.o CMakeFiles/ConsoleGame.dir/src/Enemy/Tower/Cannon.c.o CMakeFiles/ConsoleGame.dir/src/Enemy/Tower/Laser.c.o CMakeFiles/ConsoleGame.dir/src/Enemy/Trap/Spike.c.o CMakeFiles/ConsoleGame.dir/src/Player/Player.c.o  -o ConsoleGame 
