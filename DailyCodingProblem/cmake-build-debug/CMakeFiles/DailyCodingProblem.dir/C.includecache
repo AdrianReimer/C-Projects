@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/adria/CLionProjects/DailyCodingProblem/day1.c
-day1.h
-C:/Users/adria/CLionProjects/DailyCodingProblem/day1.h
-string.h
--
+D:/C-Projects/DailyCodingProblem/day1.h
+
+D:/C-Projects/DailyCodingProblem/day2.h
+
+D:/C-Projects/DailyCodingProblem/main.c
 stdio.h
 -
-stdlib.h
+string.h
 -
-
-C:/Users/adria/CLionProjects/DailyCodingProblem/day1.h
+day1.h
+D:/C-Projects/DailyCodingProblem/day1.h
+day2.h
+D:/C-Projects/DailyCodingProblem/day2.h
 

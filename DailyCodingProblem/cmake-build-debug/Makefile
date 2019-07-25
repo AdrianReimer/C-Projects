@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\adria\CLionProjects\DailyCodingProblem
+CMAKE_SOURCE_DIR = D:\C-Projects\DailyCodingProblem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\adria\CLionProjects\DailyCodingProblem\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C-Projects\DailyCodingProblem\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adria\CLionProjects\DailyCodingProblem\cmake-build-debug\CMakeFiles C:\Users\adria\CLionProjects\DailyCodingProblem\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adria\CLionProjects\DailyCodingProblem\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,6 +151,33 @@ day1.c.s:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day1.c.s
 .PHONY : day1.c.s
 
+day2.obj: day2.c.obj
+
+.PHONY : day2.obj
+
+# target to build an object file
+day2.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.obj
+.PHONY : day2.c.obj
+
+day2.i: day2.c.i
+
+.PHONY : day2.i
+
+# target to preprocess a source file
+day2.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.i
+.PHONY : day2.c.i
+
+day2.s: day2.c.s
+
+.PHONY : day2.s
+
+# target to generate assembly for a file
+day2.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.s
+.PHONY : day2.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... day1.obj
 	@echo ... day1.i
 	@echo ... day1.s
+	@echo ... day2.obj
+	@echo ... day2.i
+	@echo ... day2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/adria/CLionProjects/DailyCodingProblem/day1.c" "C:/Users/adria/CLionProjects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/day1.c.obj"
-  "C:/Users/adria/CLionProjects/DailyCodingProblem/main.c" "C:/Users/adria/CLionProjects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/main.c.obj"
+  "D:/C-Projects/DailyCodingProblem/day1.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/day1.c.obj"
+  "D:/C-Projects/DailyCodingProblem/day2.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/day2.c.obj"
+  "D:/C-Projects/DailyCodingProblem/main.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
