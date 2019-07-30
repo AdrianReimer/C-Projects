@@ -1,5 +1,5 @@
 //
-// Created by adria on 25.07.2019.
+// Created by adrian on 25.07.2019.
 //
 
 #ifndef DAILYCODINGPROBLEM_DAY2_H

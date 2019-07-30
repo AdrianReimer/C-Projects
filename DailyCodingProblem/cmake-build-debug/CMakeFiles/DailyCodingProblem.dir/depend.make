@@ -10,8 +10,12 @@ CMakeFiles\DailyCodingProblem.dir\day2.c.obj: ..\day2.h
 CMakeFiles\DailyCodingProblem.dir\day3.c.obj: ..\day3.c
 CMakeFiles\DailyCodingProblem.dir\day3.c.obj: ..\day3.h
 
+CMakeFiles\DailyCodingProblem.dir\day4.c.obj: ..\day4.c
+CMakeFiles\DailyCodingProblem.dir\day4.c.obj: ..\day4.h
+
 CMakeFiles\DailyCodingProblem.dir\main.c.obj: ..\day1.h
 CMakeFiles\DailyCodingProblem.dir\main.c.obj: ..\day2.h
 CMakeFiles\DailyCodingProblem.dir\main.c.obj: ..\day3.h
+CMakeFiles\DailyCodingProblem.dir\main.c.obj: ..\day4.h
 CMakeFiles\DailyCodingProblem.dir\main.c.obj: ..\main.c
 
