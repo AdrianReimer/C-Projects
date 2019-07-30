@@ -232,6 +232,33 @@ day4.c.s:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day4.c.s
 .PHONY : day4.c.s
 
+day5.obj: day5.c.obj
+
+.PHONY : day5.obj
+
+# target to build an object file
+day5.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.obj
+.PHONY : day5.c.obj
+
+day5.i: day5.c.i
+
+.PHONY : day5.i
+
+# target to preprocess a source file
+day5.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.i
+.PHONY : day5.c.i
+
+day5.s: day5.c.s
+
+.PHONY : day5.s
+
+# target to generate assembly for a file
+day5.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.s
+.PHONY : day5.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -280,6 +307,9 @@ help:
 	@echo ... day4.obj
 	@echo ... day4.i
 	@echo ... day4.s
+	@echo ... day5.obj
+	@echo ... day5.i
+	@echo ... day5.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

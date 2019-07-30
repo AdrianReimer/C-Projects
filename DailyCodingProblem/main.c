@@ -4,16 +4,16 @@
 #include "day2.h"
 #include "day3.h"
 #include "day4.h"
+#include "day5.h"
 
 
 int main()
 {
-    int x[] = {-9, -2, 0, 2, 3};
-    int length = sizeof(x) / sizeof(x[0]);
-    squareSort(&x, length);
+    Interval intervalList[] = {{0, 3}, {2, 6}, {3, 4}, {6, 9}};
+    int length = sizeof(intervalList) / sizeof(intervalList[0]);
+    Interval *interval = smallestInterval(&intervalList, length);
 
-    for(int i = 0; i < length; i++)
-        printf("%d ",x[i]);
+    printf("{%d, %d}",interval->from, interval->to);
 
     return 0;
 }
