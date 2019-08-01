@@ -6,29 +6,35 @@
 
 #IncludeRegexTransform: 
 
-D:/C-Projects/DailyCodingProblem/day1.h
+D:/C-Projects/DailyCodingProblem/src/day1.h
 
-D:/C-Projects/DailyCodingProblem/day2.h
+D:/C-Projects/DailyCodingProblem/src/day2.h
 
-D:/C-Projects/DailyCodingProblem/day3.h
+D:/C-Projects/DailyCodingProblem/src/day3.h
 
-D:/C-Projects/DailyCodingProblem/day4.h
+D:/C-Projects/DailyCodingProblem/src/day4.h
 
-D:/C-Projects/DailyCodingProblem/day5.h
+D:/C-Projects/DailyCodingProblem/src/day5.h
 
-D:/C-Projects/DailyCodingProblem/main.c
+D:/C-Projects/DailyCodingProblem/src/day6.h
+
+D:/C-Projects/DailyCodingProblem/src/main.c
 stdio.h
 -
 string.h
 -
+stdlib.h
+-
 day1.h
-D:/C-Projects/DailyCodingProblem/day1.h
+D:/C-Projects/DailyCodingProblem/src/day1.h
 day2.h
-D:/C-Projects/DailyCodingProblem/day2.h
+D:/C-Projects/DailyCodingProblem/src/day2.h
 day3.h
-D:/C-Projects/DailyCodingProblem/day3.h
+D:/C-Projects/DailyCodingProblem/src/day3.h
 day4.h
-D:/C-Projects/DailyCodingProblem/day4.h
+D:/C-Projects/DailyCodingProblem/src/day4.h
 day5.h
-D:/C-Projects/DailyCodingProblem/day5.h
+D:/C-Projects/DailyCodingProblem/src/day5.h
+day6.h
+D:/C-Projects/DailyCodingProblem/src/day6.h
 

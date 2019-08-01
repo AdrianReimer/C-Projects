@@ -124,167 +124,194 @@ DailyCodingProblem\fast:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\build
 .PHONY : DailyCodingProblem\fast
 
-day1.obj: day1.c.obj
+src\day1.obj: src\day1.c.obj
 
-.PHONY : day1.obj
-
-# target to build an object file
-day1.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day1.c.obj
-.PHONY : day1.c.obj
-
-day1.i: day1.c.i
-
-.PHONY : day1.i
-
-# target to preprocess a source file
-day1.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day1.c.i
-.PHONY : day1.c.i
-
-day1.s: day1.c.s
-
-.PHONY : day1.s
-
-# target to generate assembly for a file
-day1.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day1.c.s
-.PHONY : day1.c.s
-
-day2.obj: day2.c.obj
-
-.PHONY : day2.obj
+.PHONY : src\day1.obj
 
 # target to build an object file
-day2.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.obj
-.PHONY : day2.c.obj
+src\day1.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day1.c.obj
+.PHONY : src\day1.c.obj
 
-day2.i: day2.c.i
+src\day1.i: src\day1.c.i
 
-.PHONY : day2.i
+.PHONY : src\day1.i
 
 # target to preprocess a source file
-day2.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.i
-.PHONY : day2.c.i
+src\day1.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day1.c.i
+.PHONY : src\day1.c.i
 
-day2.s: day2.c.s
+src\day1.s: src\day1.c.s
 
-.PHONY : day2.s
+.PHONY : src\day1.s
 
 # target to generate assembly for a file
-day2.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day2.c.s
-.PHONY : day2.c.s
+src\day1.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day1.c.s
+.PHONY : src\day1.c.s
 
-day3.obj: day3.c.obj
+src\day2.obj: src\day2.c.obj
 
-.PHONY : day3.obj
+.PHONY : src\day2.obj
 
 # target to build an object file
-day3.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day3.c.obj
-.PHONY : day3.c.obj
+src\day2.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day2.c.obj
+.PHONY : src\day2.c.obj
 
-day3.i: day3.c.i
+src\day2.i: src\day2.c.i
 
-.PHONY : day3.i
+.PHONY : src\day2.i
 
 # target to preprocess a source file
-day3.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day3.c.i
-.PHONY : day3.c.i
+src\day2.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day2.c.i
+.PHONY : src\day2.c.i
 
-day3.s: day3.c.s
+src\day2.s: src\day2.c.s
 
-.PHONY : day3.s
+.PHONY : src\day2.s
 
 # target to generate assembly for a file
-day3.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day3.c.s
-.PHONY : day3.c.s
+src\day2.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day2.c.s
+.PHONY : src\day2.c.s
 
-day4.obj: day4.c.obj
+src\day3.obj: src\day3.c.obj
 
-.PHONY : day4.obj
+.PHONY : src\day3.obj
 
 # target to build an object file
-day4.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day4.c.obj
-.PHONY : day4.c.obj
+src\day3.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day3.c.obj
+.PHONY : src\day3.c.obj
 
-day4.i: day4.c.i
+src\day3.i: src\day3.c.i
 
-.PHONY : day4.i
+.PHONY : src\day3.i
 
 # target to preprocess a source file
-day4.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day4.c.i
-.PHONY : day4.c.i
+src\day3.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day3.c.i
+.PHONY : src\day3.c.i
 
-day4.s: day4.c.s
+src\day3.s: src\day3.c.s
 
-.PHONY : day4.s
+.PHONY : src\day3.s
 
 # target to generate assembly for a file
-day4.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day4.c.s
-.PHONY : day4.c.s
+src\day3.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day3.c.s
+.PHONY : src\day3.c.s
 
-day5.obj: day5.c.obj
+src\day4.obj: src\day4.c.obj
 
-.PHONY : day5.obj
+.PHONY : src\day4.obj
 
 # target to build an object file
-day5.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.obj
-.PHONY : day5.c.obj
+src\day4.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day4.c.obj
+.PHONY : src\day4.c.obj
 
-day5.i: day5.c.i
+src\day4.i: src\day4.c.i
 
-.PHONY : day5.i
+.PHONY : src\day4.i
 
 # target to preprocess a source file
-day5.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.i
-.PHONY : day5.c.i
+src\day4.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day4.c.i
+.PHONY : src\day4.c.i
 
-day5.s: day5.c.s
+src\day4.s: src\day4.c.s
 
-.PHONY : day5.s
+.PHONY : src\day4.s
 
 # target to generate assembly for a file
-day5.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\day5.c.s
-.PHONY : day5.c.s
+src\day4.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day4.c.s
+.PHONY : src\day4.c.s
 
-main.obj: main.c.obj
+src\day5.obj: src\day5.c.obj
 
-.PHONY : main.obj
+.PHONY : src\day5.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\main.c.obj
-.PHONY : main.c.obj
+src\day5.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day5.c.obj
+.PHONY : src\day5.c.obj
 
-main.i: main.c.i
+src\day5.i: src\day5.c.i
 
-.PHONY : main.i
+.PHONY : src\day5.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\main.c.i
-.PHONY : main.c.i
+src\day5.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day5.c.i
+.PHONY : src\day5.c.i
 
-main.s: main.c.s
+src\day5.s: src\day5.c.s
 
-.PHONY : main.s
+.PHONY : src\day5.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\main.c.s
-.PHONY : main.c.s
+src\day5.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day5.c.s
+.PHONY : src\day5.c.s
+
+src\day6.obj: src\day6.c.obj
+
+.PHONY : src\day6.obj
+
+# target to build an object file
+src\day6.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day6.c.obj
+.PHONY : src\day6.c.obj
+
+src\day6.i: src\day6.c.i
+
+.PHONY : src\day6.i
+
+# target to preprocess a source file
+src\day6.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day6.c.i
+.PHONY : src\day6.c.i
+
+src\day6.s: src\day6.c.s
+
+.PHONY : src\day6.s
+
+# target to generate assembly for a file
+src\day6.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day6.c.s
+.PHONY : src\day6.c.s
+
+src\main.obj: src\main.c.obj
+
+.PHONY : src\main.obj
+
+# target to build an object file
+src\main.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\main.c.obj
+.PHONY : src\main.c.obj
+
+src\main.i: src\main.c.i
+
+.PHONY : src\main.i
+
+# target to preprocess a source file
+src\main.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\main.c.i
+.PHONY : src\main.c.i
+
+src\main.s: src\main.c.s
+
+.PHONY : src\main.s
+
+# target to generate assembly for a file
+src\main.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\main.c.s
+.PHONY : src\main.c.s
 
 # Help Target
 help:
@@ -295,24 +322,27 @@ help:
 	@echo ... DailyCodingProblem
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... day1.obj
-	@echo ... day1.i
-	@echo ... day1.s
-	@echo ... day2.obj
-	@echo ... day2.i
-	@echo ... day2.s
-	@echo ... day3.obj
-	@echo ... day3.i
-	@echo ... day3.s
-	@echo ... day4.obj
-	@echo ... day4.i
-	@echo ... day4.s
-	@echo ... day5.obj
-	@echo ... day5.i
-	@echo ... day5.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/day1.obj
+	@echo ... src/day1.i
+	@echo ... src/day1.s
+	@echo ... src/day2.obj
+	@echo ... src/day2.i
+	@echo ... src/day2.s
+	@echo ... src/day3.obj
+	@echo ... src/day3.i
+	@echo ... src/day3.s
+	@echo ... src/day4.obj
+	@echo ... src/day4.i
+	@echo ... src/day4.s
+	@echo ... src/day5.obj
+	@echo ... src/day5.i
+	@echo ... src/day5.s
+	@echo ... src/day6.obj
+	@echo ... src/day6.i
+	@echo ... src/day6.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

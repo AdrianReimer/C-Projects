@@ -84,37 +84,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day1.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day1.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day1.h">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day1.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day2.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day2.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day2.h">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day2.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day3.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day3.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day3.h">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day3.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day4.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day4.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day4.h">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day4.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day5.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day5.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/day5.h">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day5.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/main.c">
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day6.c">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day6.h">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/main.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
 		<Unit filename="D:/C-Projects/DailyCodingProblem/CMakeLists.txt">
