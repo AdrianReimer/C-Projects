@@ -313,6 +313,33 @@ src\day7.c.s:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day7.c.s
 .PHONY : src\day7.c.s
 
+src\day8.obj: src\day8.c.obj
+
+.PHONY : src\day8.obj
+
+# target to build an object file
+src\day8.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day8.c.obj
+.PHONY : src\day8.c.obj
+
+src\day8.i: src\day8.c.i
+
+.PHONY : src\day8.i
+
+# target to preprocess a source file
+src\day8.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day8.c.i
+.PHONY : src\day8.c.i
+
+src\day8.s: src\day8.c.s
+
+.PHONY : src\day8.s
+
+# target to generate assembly for a file
+src\day8.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day8.c.s
+.PHONY : src\day8.c.s
+
 src\main.obj: src\main.c.obj
 
 .PHONY : src\main.obj
@@ -370,6 +397,9 @@ help:
 	@echo ... src/day7.obj
 	@echo ... src/day7.i
 	@echo ... src/day7.s
+	@echo ... src/day8.obj
+	@echo ... src/day8.i
+	@echo ... src/day8.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

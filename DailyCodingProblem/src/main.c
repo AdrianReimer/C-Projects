@@ -8,18 +8,16 @@
 #include "day5.h"
 #include "day6.h"
 #include "day7.h"
+#include "day8.h"
 
 
 int main()
 {
-    printf("%s\n",numberRep("10"));
-    printf("%s\n",numberRep("-10"));
-    printf("%s\n",numberRep("10.1"));
-    printf("%s\n",numberRep("-10.1"));
-    printf("%s\n",numberRep("1e5"));
-    printf("%s\n",numberRep("a"));
-    printf("%s\n",numberRep("x 1"));
-    printf("%s\n",numberRep("a -2"));
-    printf("%s\n",numberRep("-"));
+    printf("%d\n",flipRounds(10));
+    printf("%d\n",flipRounds(20));
+    printf("%d\n",flipRounds(30));
+    printf("%d\n",flipRounds(40));
+    printf("%d\n",flipRounds(1));
+    printf("%d\n",flipRounds(2));
     return 0;
 }
