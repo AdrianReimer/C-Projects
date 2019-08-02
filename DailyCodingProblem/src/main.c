@@ -7,15 +7,19 @@
 #include "day4.h"
 #include "day5.h"
 #include "day6.h"
+#include "day7.h"
 
 
 int main()
 {
-    char *text1 = readN("text",5);
-    char *text2 = readN("text",14);
-    printf("%s",text1);
-    printf("%s",text2);
-    free(text1);
-    free(text2);
+    printf("%s\n",numberRep("10"));
+    printf("%s\n",numberRep("-10"));
+    printf("%s\n",numberRep("10.1"));
+    printf("%s\n",numberRep("-10.1"));
+    printf("%s\n",numberRep("1e5"));
+    printf("%s\n",numberRep("a"));
+    printf("%s\n",numberRep("x 1"));
+    printf("%s\n",numberRep("a -2"));
+    printf("%s\n",numberRep("-"));
     return 0;
 }

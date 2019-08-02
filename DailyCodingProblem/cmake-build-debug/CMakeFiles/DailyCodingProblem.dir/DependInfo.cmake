@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/C-Projects/DailyCodingProblem/src/day4.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day4.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day5.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day5.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day6.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day6.c.obj"
+  "D:/C-Projects/DailyCodingProblem/src/day7.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day7.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/main.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
