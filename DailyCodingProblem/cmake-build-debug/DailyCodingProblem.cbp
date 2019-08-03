@@ -90,6 +90,12 @@
 		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day1.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day10.c">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
+		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day10.h">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
 		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day2.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>

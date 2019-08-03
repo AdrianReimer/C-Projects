@@ -8,6 +8,8 @@
 
 D:/C-Projects/DailyCodingProblem/src/day1.h
 
+D:/C-Projects/DailyCodingProblem/src/day10.h
+
 D:/C-Projects/DailyCodingProblem/src/day2.h
 
 D:/C-Projects/DailyCodingProblem/src/day3.h
@@ -22,14 +24,6 @@ D:/C-Projects/DailyCodingProblem/src/day7.h
 
 D:/C-Projects/DailyCodingProblem/src/day8.h
 
-D:/C-Projects/DailyCodingProblem/src/day9.c
-day9.h
-D:/C-Projects/DailyCodingProblem/src/day9.h
-stdio.h
--
-stdlib.h
--
-
 D:/C-Projects/DailyCodingProblem/src/day9.h
 
 D:/C-Projects/DailyCodingProblem/src/main.c
@@ -38,6 +32,8 @@ stdio.h
 string.h
 -
 stdlib.h
+-
+assert.h
 -
 day1.h
 D:/C-Projects/DailyCodingProblem/src/day1.h
@@ -57,4 +53,6 @@ day8.h
 D:/C-Projects/DailyCodingProblem/src/day8.h
 day9.h
 D:/C-Projects/DailyCodingProblem/src/day9.h
+day10.h
+D:/C-Projects/DailyCodingProblem/src/day10.h
 
