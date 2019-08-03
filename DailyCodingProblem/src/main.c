@@ -9,15 +9,13 @@
 #include "day6.h"
 #include "day7.h"
 #include "day8.h"
+#include "day9.h"
 
+int list[6] = {5, 1, 2, 3, 4, 5};
 
 int main()
 {
-    printf("%d\n",flipRounds(10));
-    printf("%d\n",flipRounds(20));
-    printf("%d\n",flipRounds(30));
-    printf("%d\n",flipRounds(40));
-    printf("%d\n",flipRounds(1));
-    printf("%d\n",flipRounds(2));
+    int *sol = contiguousSum(list, 12);
+    free(sol);
     return 0;
 }

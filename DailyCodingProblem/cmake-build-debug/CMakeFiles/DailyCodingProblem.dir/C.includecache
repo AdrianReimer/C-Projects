@@ -20,11 +20,17 @@ D:/C-Projects/DailyCodingProblem/src/day6.h
 
 D:/C-Projects/DailyCodingProblem/src/day7.h
 
-D:/C-Projects/DailyCodingProblem/src/day8.c
-day8.h
 D:/C-Projects/DailyCodingProblem/src/day8.h
 
-D:/C-Projects/DailyCodingProblem/src/day8.h
+D:/C-Projects/DailyCodingProblem/src/day9.c
+day9.h
+D:/C-Projects/DailyCodingProblem/src/day9.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/C-Projects/DailyCodingProblem/src/day9.h
 
 D:/C-Projects/DailyCodingProblem/src/main.c
 stdio.h
@@ -49,4 +55,6 @@ day7.h
 D:/C-Projects/DailyCodingProblem/src/day7.h
 day8.h
 D:/C-Projects/DailyCodingProblem/src/day8.h
+day9.h
+D:/C-Projects/DailyCodingProblem/src/day9.h
 
