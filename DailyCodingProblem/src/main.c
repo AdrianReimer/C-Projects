@@ -12,11 +12,26 @@
 #include "day8.h"
 #include "day9.h"
 #include "day10.h"
+#include "day11.h"
 
+treeNode node1;
+treeNode node2;
+treeNode node3;
+treeNode node4;
+treeNode node5;
 
 int main()
 {
-    assert(swapChar(0b10101010) == 0b01010101);
-    assert(swapChar(0b11100010) == 0b11010001);
+    node1.data = 10;
+    node1.left = &node2;
+    node1.right = &node3;
+    node2.data = 5;
+    node3.data = 15;
+    node3.left = &node4;
+    node3.right = &node5;
+    node4.data = 11;
+    node5.data = 15;
+    treeNodePair pair = nodePairSum(&node1,26);
+    printf("%d %d",pair.first->data,pair.second->data);
     return 0;
 }
