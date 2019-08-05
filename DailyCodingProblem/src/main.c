@@ -13,25 +13,16 @@
 #include "day9.h"
 #include "day10.h"
 #include "day11.h"
+#include "day12.h"
 
-treeNode node1;
-treeNode node2;
-treeNode node3;
-treeNode node4;
-treeNode node5;
+int arr[] = {1, 2, 3, 4, 5, 6};
 
 int main()
 {
-    node1.data = 10;
-    node1.left = &node2;
-    node1.right = &node3;
-    node2.data = 5;
-    node3.data = 15;
-    node3.left = &node4;
-    node3.right = &node5;
-    node4.data = 11;
-    node5.data = 15;
-    treeNodePair pair = nodePairSum(&node1,26);
-    printf("%d %d",pair.first->data,pair.second->data);
+    int length = sizeof(arr) / sizeof(arr[0]);
+    rotateList(&arr, length, 2);
+    for(int i = 0; i < length; i++) {
+        printf("%d ", arr[i]);
+    }
     return 0;
 }
