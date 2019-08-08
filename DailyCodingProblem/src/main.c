@@ -15,12 +15,13 @@
 //#include "day11.h"
 //#include "day12.h"
 //#include "day13.h"
-#include "day14.h"
+//#include "day14.h"
+#include "day15.h"
 
+int stockList[] = {5, 5, 2, 4, 1, 1};
 
 int main()
 {
-    printf("%e", squareRoot(9));
-
+    printf("%d",maxProfit(&stockList, 2));
     return 0;
 }
