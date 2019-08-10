@@ -16,12 +16,16 @@
 //#include "day12.h"
 //#include "day13.h"
 //#include "day14.h"
-#include "day15.h"
+//#include "day15.h"
+#include "day16.h"
 
-int stockList[] = {5, 5, 2, 4, 1, 1};
 
 int main()
 {
-    printf("%d",maxProfit(&stockList, 2));
+    record(time(NULL));
+    record(time(NULL));
+    record(time(NULL));
+    record(time(NULL));
+    printf("%d %d", total(), range(time(NULL)-2, time(NULL)+2));
     return 0;
 }
