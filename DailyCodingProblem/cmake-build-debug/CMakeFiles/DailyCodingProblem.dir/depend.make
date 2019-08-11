@@ -25,6 +25,9 @@ CMakeFiles\DailyCodingProblem.dir\src\day15.c.obj: ..\src\day15.h
 CMakeFiles\DailyCodingProblem.dir\src\day16.c.obj: ..\src\day16.c
 CMakeFiles\DailyCodingProblem.dir\src\day16.c.obj: ..\src\day16.h
 
+CMakeFiles\DailyCodingProblem.dir\src\day17.c.obj: ..\src\day17.c
+CMakeFiles\DailyCodingProblem.dir\src\day17.c.obj: ..\src\day17.h
+
 CMakeFiles\DailyCodingProblem.dir\src\day2.c.obj: ..\src\day2.c
 CMakeFiles\DailyCodingProblem.dir\src\day2.c.obj: ..\src\day2.h
 
@@ -49,7 +52,6 @@ CMakeFiles\DailyCodingProblem.dir\src\day8.c.obj: ..\src\day8.h
 CMakeFiles\DailyCodingProblem.dir\src\day9.c.obj: ..\src\day9.c
 CMakeFiles\DailyCodingProblem.dir\src\day9.c.obj: ..\src\day9.h
 
-CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\day15.h
-CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\day16.h
+CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\day17.h
 CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\main.c
 

@@ -17,15 +17,18 @@
 //#include "day13.h"
 //#include "day14.h"
 //#include "day15.h"
-#include "day16.h"
+//#include "day16.h"
+#include "day17.h"
 
 
 int main()
 {
-    record(time(NULL));
-    record(time(NULL));
-    record(time(NULL));
-    record(time(NULL));
-    printf("%d %d", total(), range(time(NULL)-2, time(NULL)+2));
+    Node *root = NULL;
+    root = insert(root, 10);
+    root = insert(root, 5);
+    root = insert(root, 30);
+    root = insert(root, 22);
+    root = insert(root, 35);
+    assert(inOrderSuccessor(root->right->left)->data == 30);
     return 0;
 }
