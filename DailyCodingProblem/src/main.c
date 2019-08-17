@@ -18,17 +18,20 @@
 //#include "day14.h"
 //#include "day15.h"
 //#include "day16.h"
-#include "day17.h"
+//#include "day17.h"
+#include "day18.h"
 
 
 int main()
 {
     Node *root = NULL;
-    root = insert(root, 10);
-    root = insert(root, 5);
-    root = insert(root, 30);
-    root = insert(root, 22);
-    root = insert(root, 35);
-    assert(inOrderSuccessor(root->right->left)->data == 30);
+    root = insertNode(root, 10);
+    root = insertNode(root, 5);
+    root = insertNode(root, 3);
+    root = insertNode(root, 7);
+    root = insertNode(root, 30);
+    root = insertNode(root, 22);
+    root = insertNode(root, 35);
+    printf("%d",minPathSum(root));
     return 0;
 }
