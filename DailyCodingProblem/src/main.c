@@ -19,19 +19,17 @@
 //#include "day15.h"
 //#include "day16.h"
 //#include "day17.h"
-#include "day18.h"
+//#include "day18.h"
+#include "day19.h"
+
+const int array[4][4] = {{1, 0, 0, 0},
+                        {1, 0, 1, 1},
+                        {1, 0, 1, 1},
+                        {0, 1, 0, 0}};
 
 
 int main()
 {
-    Node *root = NULL;
-    root = insertNode(root, 10);
-    root = insertNode(root, 5);
-    root = insertNode(root, 3);
-    root = insertNode(root, 7);
-    root = insertNode(root, 30);
-    root = insertNode(root, 22);
-    root = insertNode(root, 35);
-    printf("%d",minPathSum(root));
+    largestRectangle(4, 4, array);
     return 0;
 }

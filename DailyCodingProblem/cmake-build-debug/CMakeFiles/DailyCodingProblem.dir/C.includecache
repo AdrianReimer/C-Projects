@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/C-Projects/DailyCodingProblem/src/day18.c
-day18.h
-D:/C-Projects/DailyCodingProblem/src/day18.h
+D:/C-Projects/DailyCodingProblem/src/day19.h
+
+D:/C-Projects/DailyCodingProblem/src/main.c
+stdio.h
+-
+string.h
+-
 stdlib.h
 -
-
-D:/C-Projects/DailyCodingProblem/src/day18.h
+assert.h
+-
+day19.h
+D:/C-Projects/DailyCodingProblem/src/day19.h
 
