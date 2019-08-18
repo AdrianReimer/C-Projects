@@ -20,16 +20,19 @@
 //#include "day16.h"
 //#include "day17.h"
 //#include "day18.h"
-#include "day19.h"
-
-const int array[4][4] = {{1, 0, 0, 0},
-                        {1, 0, 1, 1},
-                        {1, 0, 1, 1},
-                        {0, 1, 0, 0}};
+//#include "day19.h"
+#include "day20.h"
 
 
 int main()
 {
-    largestRectangle(4, 4, array);
+    BitArray *arr = init(18);
+    set(arr,0,1);
+    set(arr,1,1);
+    set(arr,2,0);
+    assert(get(arr,0) == 1);
+    assert(get(arr,1) == 1);
+    assert(get(arr,2) == 0);
+    assert(get(arr,18) == -1);
     return 0;
 }

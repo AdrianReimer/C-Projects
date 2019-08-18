@@ -394,33 +394,6 @@ src\day18.c.s:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day18.c.s
 .PHONY : src\day18.c.s
 
-src\day19.obj: src\day19.c.obj
-
-.PHONY : src\day19.obj
-
-# target to build an object file
-src\day19.c.obj:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day19.c.obj
-.PHONY : src\day19.c.obj
-
-src\day19.i: src\day19.c.i
-
-.PHONY : src\day19.i
-
-# target to preprocess a source file
-src\day19.c.i:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day19.c.i
-.PHONY : src\day19.c.i
-
-src\day19.s: src\day19.c.s
-
-.PHONY : src\day19.s
-
-# target to generate assembly for a file
-src\day19.c.s:
-	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day19.c.s
-.PHONY : src\day19.c.s
-
 src\day2.obj: src\day2.c.obj
 
 .PHONY : src\day2.obj
@@ -447,6 +420,33 @@ src\day2.s: src\day2.c.s
 src\day2.c.s:
 	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day2.c.s
 .PHONY : src\day2.c.s
+
+src\day20.obj: src\day20.c.obj
+
+.PHONY : src\day20.obj
+
+# target to build an object file
+src\day20.c.obj:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day20.c.obj
+.PHONY : src\day20.c.obj
+
+src\day20.i: src\day20.c.i
+
+.PHONY : src\day20.i
+
+# target to preprocess a source file
+src\day20.c.i:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day20.c.i
+.PHONY : src\day20.c.i
+
+src\day20.s: src\day20.c.s
+
+.PHONY : src\day20.s
+
+# target to generate assembly for a file
+src\day20.c.s:
+	$(MAKE) -f CMakeFiles\DailyCodingProblem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DailyCodingProblem.dir\src\day20.c.s
+.PHONY : src\day20.c.s
 
 src\day3.obj: src\day3.c.obj
 
@@ -703,12 +703,12 @@ help:
 	@echo ... src/day18.obj
 	@echo ... src/day18.i
 	@echo ... src/day18.s
-	@echo ... src/day19.obj
-	@echo ... src/day19.i
-	@echo ... src/day19.s
 	@echo ... src/day2.obj
 	@echo ... src/day2.i
 	@echo ... src/day2.s
+	@echo ... src/day20.obj
+	@echo ... src/day20.i
+	@echo ... src/day20.s
 	@echo ... src/day3.obj
 	@echo ... src/day3.i
 	@echo ... src/day3.s

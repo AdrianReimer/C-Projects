@@ -419,23 +419,23 @@ CMakeFiles\DailyCodingProblem.dir\src\day18.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DailyCodingProblem.dir\src\day18.c.s /c D:\C-Projects\DailyCodingProblem\src\day18.c
 <<
 
-CMakeFiles\DailyCodingProblem.dir\src\day19.c.obj: CMakeFiles\DailyCodingProblem.dir\flags.make
-CMakeFiles\DailyCodingProblem.dir\src\day19.c.obj: ..\src\day19.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/DailyCodingProblem.dir/src/day19.c.obj"
+CMakeFiles\DailyCodingProblem.dir\src\day20.c.obj: CMakeFiles\DailyCodingProblem.dir\flags.make
+CMakeFiles\DailyCodingProblem.dir\src\day20.c.obj: ..\src\day20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/DailyCodingProblem.dir/src/day20.c.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DailyCodingProblem.dir\src\day19.c.obj /FdCMakeFiles\DailyCodingProblem.dir\ /FS -c D:\C-Projects\DailyCodingProblem\src\day19.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DailyCodingProblem.dir\src\day20.c.obj /FdCMakeFiles\DailyCodingProblem.dir\ /FS -c D:\C-Projects\DailyCodingProblem\src\day20.c
 <<
 
-CMakeFiles\DailyCodingProblem.dir\src\day19.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DailyCodingProblem.dir/src/day19.c.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\DailyCodingProblem.dir\src\day19.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C-Projects\DailyCodingProblem\src\day19.c
+CMakeFiles\DailyCodingProblem.dir\src\day20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DailyCodingProblem.dir/src/day20.c.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\DailyCodingProblem.dir\src\day20.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C-Projects\DailyCodingProblem\src\day20.c
 <<
 
-CMakeFiles\DailyCodingProblem.dir\src\day19.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/day19.c.s"
+CMakeFiles\DailyCodingProblem.dir\src\day20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/day20.c.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DailyCodingProblem.dir\src\day19.c.s /c D:\C-Projects\DailyCodingProblem\src\day19.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DailyCodingProblem.dir\src\day20.c.s /c D:\C-Projects\DailyCodingProblem\src\day20.c
 <<
 
 # Object files for target DailyCodingProblem
@@ -459,7 +459,7 @@ DailyCodingProblem_OBJECTS = \
 "CMakeFiles\DailyCodingProblem.dir\src\day16.c.obj" \
 "CMakeFiles\DailyCodingProblem.dir\src\day17.c.obj" \
 "CMakeFiles\DailyCodingProblem.dir\src\day18.c.obj" \
-"CMakeFiles\DailyCodingProblem.dir\src\day19.c.obj"
+"CMakeFiles\DailyCodingProblem.dir\src\day20.c.obj"
 
 # External object files for target DailyCodingProblem
 DailyCodingProblem_EXTERNAL_OBJECTS =
@@ -483,7 +483,7 @@ DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day15.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day16.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day17.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day18.c.obj
-DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day19.c.obj
+DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day20.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\build.make
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable DailyCodingProblem.exe"
