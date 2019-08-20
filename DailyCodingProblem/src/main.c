@@ -2,16 +2,13 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day21.h"
+#include "day22.h"
 
+
+int arr[] = {2, 4, 6, 8, 10, 2, 6, 10};
 
 int main()
 {
-    assert(centsToCoins(16) == 3);
-    assert(centsToCoins(10) == 1);
-    assert(centsToCoins(25) == 1);
-    assert(centsToCoins(12) == 3);
-    assert(centsToCoins(15) == 2);
-    assert(centsToCoins(100) == 4);
+    printf("%d %d",singlePairAppear(8, arr)[0], singlePairAppear(8, arr)[1]);
     return 0;
 }
