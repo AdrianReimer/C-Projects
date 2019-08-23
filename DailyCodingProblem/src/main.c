@@ -2,13 +2,15 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day22.h"
+#include "day23.h"
 
 
-int arr[] = {2, 4, 6, 8, 10, 2, 6, 10};
+int arr[] = {9, 12, 3, 5, 14, 10, 10};
 
 int main()
 {
-    printf("%d %d",singlePairAppear(8, arr)[0], singlePairAppear(8, arr)[1]);
+    changePivot(10,&arr,7);
+    for(int i = 0; i < 7; i++)
+        printf("%d ",arr[i]);
     return 0;
 }
