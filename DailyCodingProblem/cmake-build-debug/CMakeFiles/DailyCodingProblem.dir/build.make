@@ -533,6 +533,25 @@ CMakeFiles\DailyCodingProblem.dir\src\day25.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DailyCodingProblem.dir\src\day25.c.s /c D:\C-Projects\DailyCodingProblem\src\day25.c
 <<
 
+CMakeFiles\DailyCodingProblem.dir\src\day26.c.obj: CMakeFiles\DailyCodingProblem.dir\flags.make
+CMakeFiles\DailyCodingProblem.dir\src\day26.c.obj: ..\src\day26.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/DailyCodingProblem.dir/src/day26.c.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\DailyCodingProblem.dir\src\day26.c.obj /FdCMakeFiles\DailyCodingProblem.dir\ /FS -c D:\C-Projects\DailyCodingProblem\src\day26.c
+<<
+
+CMakeFiles\DailyCodingProblem.dir\src\day26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DailyCodingProblem.dir/src/day26.c.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\DailyCodingProblem.dir\src\day26.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C-Projects\DailyCodingProblem\src\day26.c
+<<
+
+CMakeFiles\DailyCodingProblem.dir\src\day26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/day26.c.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\DailyCodingProblem.dir\src\day26.c.s /c D:\C-Projects\DailyCodingProblem\src\day26.c
+<<
+
 # Object files for target DailyCodingProblem
 DailyCodingProblem_OBJECTS = \
 "CMakeFiles\DailyCodingProblem.dir\src\main.c.obj" \
@@ -559,7 +578,8 @@ DailyCodingProblem_OBJECTS = \
 "CMakeFiles\DailyCodingProblem.dir\src\day22.c.obj" \
 "CMakeFiles\DailyCodingProblem.dir\src\day23.c.obj" \
 "CMakeFiles\DailyCodingProblem.dir\src\day24.c.obj" \
-"CMakeFiles\DailyCodingProblem.dir\src\day25.c.obj"
+"CMakeFiles\DailyCodingProblem.dir\src\day25.c.obj" \
+"CMakeFiles\DailyCodingProblem.dir\src\day26.c.obj"
 
 # External object files for target DailyCodingProblem
 DailyCodingProblem_EXTERNAL_OBJECTS =
@@ -589,9 +609,10 @@ DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day22.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day23.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day24.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day25.c.obj
+DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\src\day26.c.obj
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\build.make
 DailyCodingProblem.exe: CMakeFiles\DailyCodingProblem.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable DailyCodingProblem.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C-Projects\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable DailyCodingProblem.exe"
 	"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\DailyCodingProblem.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\DailyCodingProblem.dir\objects1.rsp @<<
  /out:DailyCodingProblem.exe /implib:DailyCodingProblem.lib /pdb:D:\C-Projects\DailyCodingProblem\cmake-build-debug\DailyCodingProblem.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

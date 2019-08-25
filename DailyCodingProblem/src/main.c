@@ -2,16 +2,15 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day25.h"
+#include "day26.h"
 
-Node root = {1, NULL};
 
 int main()
 {
-    addNode(&root, 2);
-    addNode(&root, 3);
-    addNode(&root, 4);
-    swapPairs(&root);
-    printList(&root);
+    assert(divide(9,3) == 3);
+    assert(divide(10,3) == 3);
+    assert(divide(16,2) == 8);
+    assert(divide(15,5) == 3);
+    assert(divide(1000,10) == 100);
     return 0;
 }
