@@ -2,18 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day27.h"
+#include "day28.h"
 
-char *text1 = ")(";
-char *text2 = "()())()";
-char *text3 = "()()))(()";
-char *text4 = "This) Text has ( two ) wrong Parentheses (";
 
 int main()
 {
-    assert(parenthesesCheck(text1) == 2);
-    assert(parenthesesCheck(text2) == 1);
-    assert(parenthesesCheck(text3) == 3);
-    assert(parenthesesCheck(text4) == 2);
+    int *list = generateGrayCode(2);
+    assert(list[2] == 0b11);
+    free(list);
+    list = generateGrayCode(3);
+    assert(list[4] == 0b110);
+    free(list);
     return 0;
 }
