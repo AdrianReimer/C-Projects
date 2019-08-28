@@ -2,16 +2,15 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day29.h"
+#include "day30.h"
 
 
-int list[] = {1, 2, 3, 4, 5};
+int list1[] = {10, 5, 7};
+int list2[] = {10, 5, 1};
 
 int main()
 {
-    assert(sublistSum(&list, sizeof(list) / sizeof(list[0]), 1, 3) == 5);
-    assert(sublistSum(&list, sizeof(list) / sizeof(list[0]), 2, 4) == 7);
-    assert(sublistSum(0, sizeof(list) / sizeof(list[0]), 2, 4) == INT_MAX);
-    assert(sublistSum(&list, sizeof(list) / sizeof(list[0]), 1, 5) == INT_MAX);
+    assert(isIncreasingOrder(&list1, sizeof(list1) / sizeof(list1[0])));
+    assert(!isIncreasingOrder(&list2, sizeof(list2) / sizeof(list2[0])));
     return 0;
 }
