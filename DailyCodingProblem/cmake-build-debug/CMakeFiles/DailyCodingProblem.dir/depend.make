@@ -70,6 +70,9 @@ CMakeFiles\DailyCodingProblem.dir\src\day3.c.obj: ..\src\day3.h
 CMakeFiles\DailyCodingProblem.dir\src\day30.c.obj: ..\src\day30.c
 CMakeFiles\DailyCodingProblem.dir\src\day30.c.obj: ..\src\day30.h
 
+CMakeFiles\DailyCodingProblem.dir\src\day31.c.obj: ..\src\day31.c
+CMakeFiles\DailyCodingProblem.dir\src\day31.c.obj: ..\src\day31.h
+
 CMakeFiles\DailyCodingProblem.dir\src\day4.c.obj: ..\src\day4.c
 CMakeFiles\DailyCodingProblem.dir\src\day4.c.obj: ..\src\day4.h
 
@@ -88,6 +91,6 @@ CMakeFiles\DailyCodingProblem.dir\src\day8.c.obj: ..\src\day8.h
 CMakeFiles\DailyCodingProblem.dir\src\day9.c.obj: ..\src\day9.c
 CMakeFiles\DailyCodingProblem.dir\src\day9.c.obj: ..\src\day9.h
 
-CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\day30.h
+CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\day31.h
 CMakeFiles\DailyCodingProblem.dir\src\main.c.obj: ..\src\main.c
 

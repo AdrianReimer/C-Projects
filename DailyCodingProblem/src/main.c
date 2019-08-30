@@ -2,15 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day30.h"
+#include "day31.h"
 
 
-int list1[] = {10, 5, 7};
-int list2[] = {10, 5, 1};
+Point points[3] = {{0, 0}, {5, 4}, {3, 1}};
+Point center = {1, 2};
 
 int main()
 {
-    assert(isIncreasingOrder(&list1, sizeof(list1) / sizeof(list1[0])));
-    assert(!isIncreasingOrder(&list2, sizeof(list2) / sizeof(list2[0])));
+    Point *nearPoints = nearestPoints(&points, sizeof(points) / sizeof(points[0]), &center, 2);
+    for(int i = 0; i < 2; i++)
+        printf("%d %d \n", nearPoints[i].x, nearPoints[i].y);
     return 0;
 }
