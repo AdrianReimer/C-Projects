@@ -2,16 +2,23 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day31.h"
+#include "day32.h"
 
-
-Point points[3] = {{0, 0}, {5, 4}, {3, 1}};
-Point center = {1, 2};
+Size size = {3, 4};
+Color image[4][3] = {blue, white, blue,
+                     white, blue, white,
+                     white, white, white,
+                     white, white, white};
+Position pos = {2, 2};
 
 int main()
 {
-    Point *nearPoints = nearestPoints(&points, sizeof(points) / sizeof(points[0]), &center, 2);
-    for(int i = 0; i < 2; i++)
-        printf("%d %d \n", nearPoints[i].x, nearPoints[i].y);
+    replAdjPix(&image, &size, pos, red, image[pos.x][pos.y]);
+    for(int x = 0; x < size.height; x++) {
+        for(int y = 0; y < size.width; y++) {
+            printf("%c", image[x][y]);
+        }
+        printf("\n");
+    }
     return 0;
 }
