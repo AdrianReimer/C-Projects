@@ -2,23 +2,15 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day32.h"
+#include "day33.h"
 
-Size size = {3, 4};
-Color image[4][3] = {blue, white, blue,
-                     white, blue, white,
-                     white, white, white,
-                     white, white, white};
-Position pos = {2, 2};
+
+int numbers[] = {1, 2, 3, 4};
+float probs[] = {0.1, 0.5, 0.2, 0.2};
 
 int main()
 {
-    replAdjPix(&image, &size, pos, red, image[pos.x][pos.y]);
-    for(int x = 0; x < size.height; x++) {
-        for(int y = 0; y < size.width; y++) {
-            printf("%c", image[x][y]);
-        }
-        printf("\n");
-    }
+    for(int i = 0; i <  100; i++)
+        printf("%d\n", genRndNum(&numbers, &probs, sizeof(numbers) / sizeof(numbers[0])));
     return 0;
 }
