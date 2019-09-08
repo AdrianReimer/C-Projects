@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/C-Projects/DailyCodingProblem/src/day32.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day32.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day33.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day33.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day34.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day34.c.obj"
+  "D:/C-Projects/DailyCodingProblem/src/day35.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day35.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day4.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day4.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day5.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day5.c.obj"
   "D:/C-Projects/DailyCodingProblem/src/day6.c" "D:/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day6.c.obj"

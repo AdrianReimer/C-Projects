@@ -2,13 +2,25 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day34.h"
+#include "day35.h"
 
 
-int numbers[] = {1, 2, 1, 1, 3, 4, 0};
+char *word1 = "carrace";
+char *word2 = "daily";
+char *word3 = "alula";
+char *word4 = "anna";
+char *word5 = "ana";
+char *word6 = "anaa";
+char *word7 = "bxaanbaax";
 
 int main()
 {
-    assert(majorityElement(&numbers, sizeof(numbers) / sizeof(numbers[0])) == 1);
+    assert(isPalindrome(word1));
+    assert(!isPalindrome(word2));
+    assert(isPalindrome(word3));
+    assert(isPalindrome(word4));
+    assert(isPalindrome(word5));
+    assert(!isPalindrome(word6));
+    assert(isPalindrome(word7));
     return 0;
 }
