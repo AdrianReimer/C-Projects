@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/DailyCodingProblem.dir/src/main.c.o CMakeFiles/DailyCodingProblem.dir/src/day38.c.o  -o DailyCodingProblem 

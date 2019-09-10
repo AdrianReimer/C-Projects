@@ -2,14 +2,19 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day37.h"
+#include "day38.h"
 
+
+char expression1[] = {'5', '3', '+'};
+char expression2[] = {'1', '7', '1', '1', '+', '-', '/', '3', '*', '2', '1', '1', '+', '+', '-'};
+char expression3[] = {'1', '+', '1', '+'};
+char expression4[] = {'1', '+', '1', '-', '1', '1', '*', '*'};
 
 int main()
 {
-    assert(reverseBits(0b11110000111100001111000011110000)
-                    == 0b00001111000011110000111100001111);
-    assert(reverseBits(0b11010000111100101111000010010000)
-                    == 0b00101111000011010000111101101111);
+    assert(revPolNot(&expression1, sizeof(expression1) / sizeof(expression1[0])) == 8);
+    assert(revPolNot(&expression2, sizeof(expression2) / sizeof(expression2[0])) == -4);
+    assert(revPolNot(&expression3, sizeof(expression3) / sizeof(expression3[0])) == 2);
+    assert(revPolNot(&expression4, sizeof(expression4) / sizeof(expression4[0])) == 0);
     return 0;
 }

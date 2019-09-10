@@ -4,306 +4,90 @@
 	<Project>
 		<Option title="DailyCodingProblem"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/C-Projects/DailyCodingProblem/cmake-build-debug"/>
+				<Option working_dir="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DailyCodingProblem">
-				<Option output="D:/C-Projects/DailyCodingProblem/cmake-build-debug/DailyCodingProblem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C-Projects/DailyCodingProblem/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 DailyCodingProblem"/>
-					<CompileFile command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DailyCodingProblem/fast">
-				<Option output="D:/C-Projects/DailyCodingProblem/cmake-build-debug/DailyCodingProblem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C-Projects/DailyCodingProblem/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 DailyCodingProblem/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/C-Projects/DailyCodingProblem/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/C-Projects/DailyCodingProblem/cmake-build-debug"/>
+				<Option working_dir="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\C-Projects\DailyCodingProblem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DailyCodingProblem">
+				<Option output="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/DailyCodingProblem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 DailyCodingProblem"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DailyCodingProblem/fast">
+				<Option output="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/DailyCodingProblem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 DailyCodingProblem/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day1.c">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day38.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day1.h">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day38.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day10.c">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day10.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day11.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day11.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day12.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day12.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day13.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day13.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day14.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day14.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day15.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day15.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day16.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day16.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day17.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day17.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day18.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day18.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day2.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day2.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day20.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day20.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day21.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day21.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day22.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day22.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day23.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day23.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day24.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day24.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day25.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day25.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day26.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day26.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day27.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day27.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day28.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day28.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day29.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day29.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day3.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day3.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day30.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day30.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day31.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day31.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day32.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day32.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day33.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day33.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day34.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day34.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day35.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day35.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day36.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day36.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day37.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day37.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day4.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day4.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day5.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day5.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day6.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day6.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day7.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day7.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day8.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day8.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day9.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/day9.h">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/src/main.c">
-			<Option target="DailyCodingProblem"/>
-		</Unit>
-		<Unit filename="D:/C-Projects/DailyCodingProblem/CMakeLists.txt">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
