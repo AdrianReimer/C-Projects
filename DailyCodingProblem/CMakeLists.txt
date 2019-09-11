@@ -3,4 +3,4 @@ project(DailyCodingProblem C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(DailyCodingProblem src/main.c src/day38.c src/day38.h)
+add_executable(DailyCodingProblem src/main.c src/day39.c src/day39.h)

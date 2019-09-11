@@ -28,6 +28,7 @@ int revPolNot(char *expression, size_t length)
     char number = expression[numberIdx];
     char operand = expression[operandIdx];
     int absSol = 0;
+
     while(operandIdx < length) {
         if(operand > '0' && operand < '9') {
             number = expression[++numberIdx];
@@ -56,20 +57,17 @@ int revPolNot(char *expression, size_t length)
             switch(operand) {
                 case '-':
                     absSol -= partSol;
-                    operand = expression[++operandIdx];
                     break;
                 case '*':
                     absSol *= partSol;
-                    operand = expression[++operandIdx];
                     break;
                 case '/':
                     absSol /= partSol;
-                    operand = expression[++operandIdx];
                     break;
                 default:
                     absSol += partSol;
-                    operand = expression[++operandIdx];
             }
+            operand = expression[++operandIdx];
             numberIdx = operandIdx - 1;
         }
     }

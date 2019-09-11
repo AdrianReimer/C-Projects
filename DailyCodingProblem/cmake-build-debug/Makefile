@@ -123,32 +123,32 @@ DailyCodingProblem/fast:
 	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/build
 .PHONY : DailyCodingProblem/fast
 
-src/day38.o: src/day38.c.o
+src/day39.o: src/day39.c.o
 
-.PHONY : src/day38.o
+.PHONY : src/day39.o
 
 # target to build an object file
-src/day38.c.o:
-	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day38.c.o
-.PHONY : src/day38.c.o
+src/day39.c.o:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day39.c.o
+.PHONY : src/day39.c.o
 
-src/day38.i: src/day38.c.i
+src/day39.i: src/day39.c.i
 
-.PHONY : src/day38.i
+.PHONY : src/day39.i
 
 # target to preprocess a source file
-src/day38.c.i:
-	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day38.c.i
-.PHONY : src/day38.c.i
+src/day39.c.i:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day39.c.i
+.PHONY : src/day39.c.i
 
-src/day38.s: src/day38.c.s
+src/day39.s: src/day39.c.s
 
-.PHONY : src/day38.s
+.PHONY : src/day39.s
 
 # target to generate assembly for a file
-src/day38.c.s:
-	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day38.c.s
-.PHONY : src/day38.c.s
+src/day39.c.s:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day39.c.s
+.PHONY : src/day39.c.s
 
 src/main.o: src/main.c.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DailyCodingProblem"
 	@echo "... edit_cache"
-	@echo "... src/day38.o"
-	@echo "... src/day38.i"
-	@echo "... src/day38.s"
+	@echo "... src/day39.o"
+	@echo "... src/day39.i"
+	@echo "... src/day39.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
