@@ -70,29 +70,29 @@ CMakeFiles/DailyCodingProblem.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c -o CMakeFiles/DailyCodingProblem.dir/src/main.c.s
 
-CMakeFiles/DailyCodingProblem.dir/src/day39.c.o: CMakeFiles/DailyCodingProblem.dir/flags.make
-CMakeFiles/DailyCodingProblem.dir/src/day39.c.o: ../src/day39.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DailyCodingProblem.dir/src/day39.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DailyCodingProblem.dir/src/day39.c.o   -c /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day39.c
+CMakeFiles/DailyCodingProblem.dir/src/day40.c.o: CMakeFiles/DailyCodingProblem.dir/flags.make
+CMakeFiles/DailyCodingProblem.dir/src/day40.c.o: ../src/day40.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DailyCodingProblem.dir/src/day40.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DailyCodingProblem.dir/src/day40.c.o   -c /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.c
 
-CMakeFiles/DailyCodingProblem.dir/src/day39.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DailyCodingProblem.dir/src/day39.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day39.c > CMakeFiles/DailyCodingProblem.dir/src/day39.c.i
+CMakeFiles/DailyCodingProblem.dir/src/day40.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DailyCodingProblem.dir/src/day40.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.c > CMakeFiles/DailyCodingProblem.dir/src/day40.c.i
 
-CMakeFiles/DailyCodingProblem.dir/src/day39.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/day39.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day39.c -o CMakeFiles/DailyCodingProblem.dir/src/day39.c.s
+CMakeFiles/DailyCodingProblem.dir/src/day40.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DailyCodingProblem.dir/src/day40.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.c -o CMakeFiles/DailyCodingProblem.dir/src/day40.c.s
 
 # Object files for target DailyCodingProblem
 DailyCodingProblem_OBJECTS = \
 "CMakeFiles/DailyCodingProblem.dir/src/main.c.o" \
-"CMakeFiles/DailyCodingProblem.dir/src/day39.c.o"
+"CMakeFiles/DailyCodingProblem.dir/src/day40.c.o"
 
 # External object files for target DailyCodingProblem
 DailyCodingProblem_EXTERNAL_OBJECTS =
 
 DailyCodingProblem: CMakeFiles/DailyCodingProblem.dir/src/main.c.o
-DailyCodingProblem: CMakeFiles/DailyCodingProblem.dir/src/day39.c.o
+DailyCodingProblem: CMakeFiles/DailyCodingProblem.dir/src/day40.c.o
 DailyCodingProblem: CMakeFiles/DailyCodingProblem.dir/build.make
 DailyCodingProblem: CMakeFiles/DailyCodingProblem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable DailyCodingProblem"

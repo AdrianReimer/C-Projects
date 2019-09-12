@@ -78,10 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day39.c">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
-		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day39.h">
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
 		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c">
