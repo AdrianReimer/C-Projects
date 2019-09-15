@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day41.h
+
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+assert.h
+-
+day41.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day41.h
+

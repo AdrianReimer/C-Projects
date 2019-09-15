@@ -2,15 +2,24 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day40.h"
+#include "day41.h"
 
 
-int list1[] = {3, 4, 9, 6, 1};
+const int SOL[N][N] = {{7, 4, 1},
+                      {8, 5, 2},
+                      {9, 6, 3}};
+
+int matrix[N][N] = {{1, 2, 3},
+                   {4, 5, 6},
+                   {7, 8, 9}};
 
 int main()
 {
-    int *sol = rightSmallerElements(&list1, sizeof(list1) / sizeof(list1[0]));
-    for(int i = 0; i < sizeof(list1) / sizeof(list1[0]); i++)
-        printf("%d ", sol[i]);
+    rotMat90(matrix);
+    for(int x = 0; x < N; x++) {
+        for(int y = 0; y < N; y++) {
+            assert(matrix[x][y] == SOL[x][y]);
+        }
+    }
     return 0;
 }
