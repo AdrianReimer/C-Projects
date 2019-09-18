@@ -2,24 +2,22 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "day41.h"
+#include "day42.h"
 
 
-const int SOL[N][N] = {{7, 4, 1},
-                      {8, 5, 2},
-                      {9, 6, 3}};
-
-int matrix[N][N] = {{1, 2, 3},
-                   {4, 5, 6},
-                   {7, 8, 9}};
+timestamp root = {NULL, 1526579928, 3, Enter};
+timestamp data1 = {NULL, 1526579929, 4, Enter};
+timestamp data2 = {NULL, 1526579930, 2, Exit};
+timestamp data3 = {NULL, 1526579931, 1, Exit};
+timestamp data4 = {NULL, 1526579932, 4, Exit};
 
 int main()
 {
-    rotMat90(matrix);
-    for(int x = 0; x < N; x++) {
-        for(int y = 0; y < N; y++) {
-            assert(matrix[x][y] == SOL[x][y]);
-        }
-    }
+    addTimestamp(&root, &data1);
+    addTimestamp(&root, &data2);
+    addTimestamp(&root, &data3);
+    addTimestamp(&root, &data4);
+    time_t *busiestTime = busiestPeriod(&root);
+    assert(busiestTime[0] == 1526579929 && busiestTime[1] == 1526579930);
     return 0;
 }
