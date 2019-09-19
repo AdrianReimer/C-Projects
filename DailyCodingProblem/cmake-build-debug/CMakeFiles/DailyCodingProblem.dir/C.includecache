@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day42.c
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day43.h
+
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c
+stdio.h
+-
+string.h
+-
 stdlib.h
 -
-day42.h
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day42.h
-
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day42.h
-time.h
+assert.h
 -
+day43.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day43.h
 
