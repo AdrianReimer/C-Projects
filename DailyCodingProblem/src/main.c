@@ -3,23 +3,20 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <limits.h>
-#include "day45.h"
+#include "day46.h"
 
 
-transition list[] = {{a, a, 0.9},
-                     {a, b, 0.075},
-                     {a, c, 0.025},
-                     {b, a, 0.15},
-                     {b, b, 0.8},
-                     {b, c, 0.05},
-                     {c, a, 0.25},
-                     {c, b, 0.25},
-                     {c, c, 0.5}};
+char *s1 = "abc";
+char *s2 = "bcd";
+char *s3 = "foo";
+char *s4 = "bar";
 
 int main()
 {
-    markovEle *sol = markovChain(a, 5000, &list, sizeof(list) / sizeof(list[0]));
-    for(size_t i = 0; i < 3; i++)
-        printf("%c : %d\n", sol[i].state, sol[i].count);
+    assert(isOneToOneRel(s1,s2));
+    assert(isOneToOneRel(s2,s1));
+    assert(!isOneToOneRel(s3,s4));
+    assert(!isOneToOneRel(s4,s3));
+    assert(!isOneToOneRel(s1,s3));
     return 0;
 }

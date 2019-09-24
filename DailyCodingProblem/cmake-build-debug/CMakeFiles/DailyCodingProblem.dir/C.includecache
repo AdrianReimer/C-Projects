@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day45.c
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day46.c
 stdlib.h
 -
-time.h
+string.h
 -
-day45.h
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day45.h
+math.h
+-
+day46.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day46.h
 
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day45.h
-glob.h
--
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day46.h
 
