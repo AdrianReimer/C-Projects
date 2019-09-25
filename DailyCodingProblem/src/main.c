@@ -3,20 +3,21 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <limits.h>
-#include "day46.h"
+#include "day47.h"
 
 
-char *s1 = "abc";
-char *s2 = "bcd";
-char *s3 = "foo";
-char *s4 = "bar";
+node ele3 = {5, NULL};
+node ele2 = {3, &ele3};
+node ele1 = {7, &ele2};
+node root = {7, &ele1};
 
 int main()
 {
-    assert(isOneToOneRel(s1,s2));
-    assert(isOneToOneRel(s2,s1));
-    assert(!isOneToOneRel(s3,s4));
-    assert(!isOneToOneRel(s4,s3));
-    assert(!isOneToOneRel(s1,s3));
+    node *root2r = rotList(&root, 2);
+    assert(root2r->num == 3);
+    assert(root2r->next->num == 5);
+    assert(root2r->next->next->num == 7);
+    assert(root2r->next->next->next->num == 7);
+    assert(root2r->next->next->next->next == 0);
     return 0;
 }

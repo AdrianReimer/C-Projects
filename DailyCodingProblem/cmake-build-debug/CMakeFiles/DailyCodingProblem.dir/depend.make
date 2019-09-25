@@ -22,6 +22,9 @@ CMakeFiles/DailyCodingProblem.dir/src/day45.c.o: ../src/day45.h
 CMakeFiles/DailyCodingProblem.dir/src/day46.c.o: ../src/day46.c
 CMakeFiles/DailyCodingProblem.dir/src/day46.c.o: ../src/day46.h
 
-CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day46.h
+CMakeFiles/DailyCodingProblem.dir/src/day47.c.o: ../src/day47.c
+CMakeFiles/DailyCodingProblem.dir/src/day47.c.o: ../src/day47.h
+
+CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day47.h
 CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/main.c
 
