@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day47.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.c
+ctype.h
+-
+day48.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.h
+
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.h
 
 /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c
 stdio.h
@@ -19,6 +25,6 @@ assert.h
 -
 limits.h
 -
-day47.h
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day47.h
+day48.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.h
 
