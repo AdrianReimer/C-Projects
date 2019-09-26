@@ -3,11 +3,13 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <limits.h>
-#include "day49.h"
+#include "day50.h"
 
+
+int list[] = {2, 4, 3, 8, 7, 5};
 
 int main()
 {
-    printGameStats(5000);
+    treeNode *root = reconstPOTree(&list, sizeof(list) / sizeof(list[0]));
     return 0;
 }

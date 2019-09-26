@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day47.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day47.c.o"
   "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day48.c.o"
   "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day49.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day49.c.o"
+  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day50.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day50.c.o"
   "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
