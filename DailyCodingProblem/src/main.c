@@ -3,28 +3,16 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <limits.h>
-#include "day51.h"
+#include "day52.h"
 
-#define MAP_LENGTH 5
-#define MAP_WIDTH 6
-
-int map1[] = {1, 0, 0, 0, 0,
-               0, 0, 1, 1, 0,
-               0, 1, 1, 0, 0,
-               0, 0, 0, 0, 0,
-               1, 1, 0, 0, 1,
-               1, 1, 0, 0, 1};
-
-int map2[] = {1, 0, 0, 0, 1,
-              0, 0, 1, 0, 0,
-              1, 1, 1, 1, 0,
-              0, 0, 0, 0, 0,
-              1, 1, 0, 1, 1,
-              1, 1, 0, 0, 1};
 
 int main()
 {
-    assert(islands(MAP_WIDTH, MAP_LENGTH, &map1) == 4);
-    assert(islands(MAP_WIDTH, MAP_LENGTH, &map2) == 5);
+    assert(perfNum(10) == 910);
+    assert(perfNum(11) == 811);
+    assert(perfNum(0) == 19);
+    assert(perfNum(555) == 55);
+    assert(perfNum(123115) == 3115);
+    assert(perfNum(131115) == 21115);
     return 0;
 }
