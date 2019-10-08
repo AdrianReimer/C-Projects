@@ -4,14 +4,20 @@
 #include <assert.h>
 #include <limits.h>
 #include <time.h>
-#include "day54.h"
+#include "day55.h"
 
 
-int list1[] = {-10, -10, 5, 2};
-int list2[] = {-10, -2, -2, -2, -1};
+Rectangle rectList1[] = {{{1, 4}, {3, 3}},
+                        {{-1, 3}, {2, 1}},
+                        {{0, 5}, {4, 3}}};
+
+Rectangle rectList2[] = {{{1, 4}, {3, 7}},
+                        {{-1, 3}, {2, 1}},
+                        {{0, 5}, {4, 3}}};
 
 int main()
 {
-    assert(largProd(list1, sizeof(list1) / sizeof(list1[0])) == 500);
-    assert(largProd(list2, sizeof(list2) / sizeof(list2[0])) == -4);
+    assert(isOverlappingRect(&rectList1, sizeof(rectList1) / sizeof(rectList1[0])));
+    assert(!isOverlappingRect(&rectList2, sizeof(rectList2) / sizeof(rectList2[0])));
+    assert(!isOverlappingRect(NULL, 5));
 }

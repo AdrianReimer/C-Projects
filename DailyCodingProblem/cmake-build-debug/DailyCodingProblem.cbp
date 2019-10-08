@@ -168,6 +168,12 @@
 		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day54.h">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day55.c">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
+		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day55.h">
+			<Option target="DailyCodingProblem"/>
+		</Unit>
 		<Unit filename="/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c">
 			<Option target="DailyCodingProblem"/>
 		</Unit>
