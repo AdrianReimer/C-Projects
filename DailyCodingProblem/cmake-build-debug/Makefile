@@ -555,6 +555,33 @@ src/day55.c.s:
 	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day55.c.s
 .PHONY : src/day55.c.s
 
+src/day56.o: src/day56.c.o
+
+.PHONY : src/day56.o
+
+# target to build an object file
+src/day56.c.o:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day56.c.o
+.PHONY : src/day56.c.o
+
+src/day56.i: src/day56.c.i
+
+.PHONY : src/day56.i
+
+# target to preprocess a source file
+src/day56.c.i:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day56.c.i
+.PHONY : src/day56.c.i
+
+src/day56.s: src/day56.c.s
+
+.PHONY : src/day56.s
+
+# target to generate assembly for a file
+src/day56.c.s:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day56.c.s
+.PHONY : src/day56.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -639,6 +666,9 @@ help:
 	@echo "... src/day55.o"
 	@echo "... src/day55.i"
 	@echo "... src/day55.s"
+	@echo "... src/day56.o"
+	@echo "... src/day56.i"
+	@echo "... src/day56.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
