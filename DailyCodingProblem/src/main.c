@@ -4,19 +4,19 @@
 #include <assert.h>
 #include <limits.h>
 #include <time.h>
-#include "day56.h"
+#include "day57.h"
 
 
-int list1[] = {8, -1, 3, 4};
-int list2[] = {-4, 5, 1, 0};
-int list3[] = {-3, -15, -33, -65, -66, -105};
-
-
+Interval intervals1[] = {{7, 9}, {2, 4}, {5, 8}};
+Interval intervals2[] = {{7, 9}, {2, 4}, {5, 8}, {3, 7}};
+Interval intervals3[] = {{7, 9}, {2, 4}, {5, 8}, {3, 7}, {8, 11}, {1, 2}};
+Interval intervals4[] = {{15, 30}, {16, 19}, {17, 32}, {30, 35}, {1, 3}, {3, 5}};
 
 int main()
 {
-    assert(maxSubarrSum(&list1, sizeof(list1) / sizeof(list1[0])) == 15);
-    assert(maxSubarrSum(&list2, sizeof(list2) / sizeof(list2[0])) == 6);
-    assert(maxSubarrSum(&list3, sizeof(list3) / sizeof(list3[0])) == -3);
-    assert(maxSubarrSum(NULL, 0) == 0);
+    assert(minOverlap(&intervals1, sizeof(intervals1) / sizeof(intervals1[0])) == 1);
+    assert(minOverlap(&intervals2, sizeof(intervals2) / sizeof(intervals2[0])) == 2);
+    assert(minOverlap(&intervals3, sizeof(intervals3) / sizeof(intervals3[0])) == 3);
+    assert(minOverlap(&intervals4, sizeof(intervals4) / sizeof(intervals4[0])) == 2);
+    assert(minOverlap(NULL, 0) == 0);
 }
