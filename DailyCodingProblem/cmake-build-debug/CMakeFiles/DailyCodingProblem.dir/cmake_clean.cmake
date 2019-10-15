@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DailyCodingProblem.dir/src/day56.c.o"
   "CMakeFiles/DailyCodingProblem.dir/src/day57.c.o"
   "CMakeFiles/DailyCodingProblem.dir/src/day58.c.o"
+  "CMakeFiles/DailyCodingProblem.dir/src/day59.c.o"
   "DailyCodingProblem.pdb"
   "DailyCodingProblem"
 )
