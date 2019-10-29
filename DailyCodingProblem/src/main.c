@@ -4,22 +4,25 @@
 #include <assert.h>
 #include <limits.h>
 #include <time.h>
-#include "day59.h"
+#include "day60.h"
 
 
-const int list1Sol[] = {1, 1, 3, 3, 2, 0};
-const int list2Sol[] = {1, 5, 7, 1, 4};
-int list1[] = {1, 3, 3, 2, 0, 1};
-int list2[] = {1, 4, 1, 5, 7};
+const int sol1[] = {1, 0, 8, 5, 3};
 
 int main()
 {
-    rotArrRight(&list1, sizeof(list1) / sizeof(list1[0]), 1);
-    for(size_t i = 0; i < sizeof(list1) / sizeof(list1[0]); i++) {
-        assert(list1[i] == list1Sol[i]);
+    Node *root = malloc(sizeof(Node));
+    root->data = 5;
+    addNode(root, 1);
+    addNode(root, 8);
+    addNode(root, 0);
+    addNode(root, 3);
+    partitionList(root, 3);
+
+    Node *iter = root;
+    for(size_t i = 0; i < sizeof(sol1) / sizeof(sol1[0]); i++) {
+        assert(iter->data == sol1[i]);
+        iter = iter->next;
     }
-    rotArrRight(&list2, sizeof(list2) / sizeof(list2[0]), 3);
-    for(size_t i = 0; i < sizeof(list2) / sizeof(list2[0]); i++) {
-        assert(list2[i] == list2Sol[i]);
-    }
+    freeList(root);
 }

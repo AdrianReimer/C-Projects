@@ -4,26 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day40.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day40.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day41.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day41.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day42.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day42.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day43.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day43.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day44.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day44.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day45.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day45.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day46.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day46.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day47.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day47.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day48.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day48.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day49.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day49.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day50.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day50.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day51.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day51.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day52.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day52.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day53.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day53.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day54.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day54.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day55.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day55.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day56.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day56.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day57.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day57.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day58.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day58.c.o"
-  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day59.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day59.c.o"
+  "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day60.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/day60.c.o"
   "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c" "/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
