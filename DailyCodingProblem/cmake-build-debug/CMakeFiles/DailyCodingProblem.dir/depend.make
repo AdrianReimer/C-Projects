@@ -4,6 +4,9 @@
 CMakeFiles/DailyCodingProblem.dir/src/day60.c.o: ../src/day60.c
 CMakeFiles/DailyCodingProblem.dir/src/day60.c.o: ../src/day60.h
 
-CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day60.h
+CMakeFiles/DailyCodingProblem.dir/src/day61.c.o: ../src/day61.c
+CMakeFiles/DailyCodingProblem.dir/src/day61.c.o: ../src/day61.h
+
+CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day61.h
 CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/main.c
 

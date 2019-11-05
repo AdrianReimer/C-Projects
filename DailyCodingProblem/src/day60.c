@@ -23,6 +23,10 @@
 void
 partitionList(Node *root, int k)
 {
+    if(root == NULL) {
+        fprintf(stderr, "root should not be NULL!");
+        return;
+    }
     Node *iter = root->next;
     while(iter != NULL) {
         if(iter->data < k ) {
