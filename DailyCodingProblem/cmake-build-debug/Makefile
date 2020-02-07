@@ -231,6 +231,33 @@ src/day63.c.s:
 	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day63.c.s
 .PHONY : src/day63.c.s
 
+src/day64.o: src/day64.c.o
+
+.PHONY : src/day64.o
+
+# target to build an object file
+src/day64.c.o:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day64.c.o
+.PHONY : src/day64.c.o
+
+src/day64.i: src/day64.c.i
+
+.PHONY : src/day64.i
+
+# target to preprocess a source file
+src/day64.c.i:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day64.c.i
+.PHONY : src/day64.c.i
+
+src/day64.s: src/day64.c.s
+
+.PHONY : src/day64.s
+
+# target to generate assembly for a file
+src/day64.c.s:
+	$(MAKE) -f CMakeFiles/DailyCodingProblem.dir/build.make CMakeFiles/DailyCodingProblem.dir/src/day64.c.s
+.PHONY : src/day64.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... src/day63.o"
 	@echo "... src/day63.i"
 	@echo "... src/day63.s"
+	@echo "... src/day64.o"
+	@echo "... src/day64.i"
+	@echo "... src/day64.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

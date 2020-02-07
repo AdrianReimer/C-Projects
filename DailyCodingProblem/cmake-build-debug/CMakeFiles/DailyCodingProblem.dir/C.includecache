@@ -6,8 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day63.h
-stdint.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day64.h
+stdlib.h
 -
 
 /home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/main.c
@@ -23,6 +23,6 @@ limits.h
 -
 time.h
 -
-day63.h
-/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day63.h
+day64.h
+/home/adrianreimer/CLionProjects/C-Projects/DailyCodingProblem/src/day64.h
 
