@@ -16,6 +16,9 @@ CMakeFiles/DailyCodingProblem.dir/src/day63.c.o: ../src/day63.h
 CMakeFiles/DailyCodingProblem.dir/src/day64.c.o: ../src/day64.c
 CMakeFiles/DailyCodingProblem.dir/src/day64.c.o: ../src/day64.h
 
-CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day64.h
+CMakeFiles/DailyCodingProblem.dir/src/day65.c.o: ../src/day65.c
+CMakeFiles/DailyCodingProblem.dir/src/day65.c.o: ../src/day65.h
+
+CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/day65.h
 CMakeFiles/DailyCodingProblem.dir/src/main.c.o: ../src/main.c
 

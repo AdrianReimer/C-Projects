@@ -4,15 +4,14 @@
 #include <assert.h>
 #include <limits.h>
 #include <time.h>
-#include "day64.h"
-
-#define arrLen 6
-
-int arr[arrLen] = {39, 15, 34, 40, 46, 18};
+#include "day65.h"
 
 
 int main()
 {
-    assert(findPeakElement(arr, arrLen, arrLen / 2) == 46);
+    assert(boardSolAmt(9) == 5);
+    assert(boardSolAmt(0) == 0);
+    assert(boardSolAmt(1) == 1);
+    assert(boardSolAmt(-1) == 0);
     return 0;
 }
